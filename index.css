@@ -1,0 +1,29 @@
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    background-image: url("../images/pattern.jpeg");
+    text-align: center;
+}
+
+p.section-header {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#section-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#starting-price {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
