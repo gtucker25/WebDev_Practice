@@ -1,0 +1,171 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+    color: seashell;
+    opacity: 0.9;
+}
+header{
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    display: inline-blcck fixed;
+    border-bottom: 1px solid seashell;
+    align-content: center;
+
+}
+.topNav{
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  color: seashell;
+  text-decoration: underline;
+  align-content: center;
+}
+.topNav li {
+  font-size: 22px;
+  color: seashell;
+  list-style-type: none;
+  padding: 0 10px;  
+}
+a{
+text-decoration-color: seashell;
+}
+.logoImage{
+    max-height: 50px;
+    align-items: flex-start;
+    flex-shrink: 1;
+}
+div.navitems{
+  justify-content: space-around;
+  align-items: flex-end;
+  display: inline-flex;
+  float: right;
+  flex-shrink: 1;
+}
+banner .mission{
+  height: 700px;
+  width: 1200px;
+  background-image: url("./img-mission-background.webp");
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  margin: 0px auto;
+  flex-direction: column;
+  display: flex;
+}
+.mission{
+  justify-content: center;
+  align-items: center;
+
+}
+.mission div{
+  background-color: black;
+  padding: auto;
+  width: 100%;
+  flex-shrink: 2;
+}
+h1{
+      font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align:middle;
+}
+h2{
+      font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: seashell;
+    text-align: center;
+    width: 100%;
+}
+h3{
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: bold;
+  color: seashell;
+  text-align: center;
+  width: 100%;
+}
+h4{
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+  color: seashell;
+  text-align: center;
+}
+.teaOfMonth{
+  width: 1000px;
+  display: flex;
+}
+.monthContainer{
+  justify-content: space-between;
+  width: 1000px;
+  display: flex;
+  margin: 50px auto;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-top: 5px;
+}
+.monthBox{
+  max-height: 200px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+  margin: 10px auto;
+}
+.monthBox h4{
+  margin: 10px 10px;
+  padding: 10px auto;
+}
+.monthImage{
+  max-height: 200px;
+  max-width: 300px;
+}
+.Locations{
+  height: 500px;
+  background-image: url("./img-locations-background.webp");
+  width: 1200px;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+}
+.locations-statement{
+  text-align: center;
+  width: 100%;
+}
+.locations-statement h2{
+  color: white;
+}
+.Location-Box {
+  background-color:black;
+  width: 300px;
+  height: 250px;
+  margin: 30px 40px;
+  opacity: 1;
+}
+.Location-Box h3{
+  margin-top: 30px;
+}
+.Location-Box p{
+  text-align: center;
+}
+.contact-container{
+  height: 200px;
+  width: auto;
+  text-align: center;
+}
+.contact-container h3, .contact-container h4{
+  margin-top: 30px;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
